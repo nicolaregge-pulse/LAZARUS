@@ -1,7 +1,7 @@
 object Form1: TForm1
-  Left = 519
+  Left = 943
   Height = 240
-  Top = 138
+  Top = 183
   Width = 320
   Caption = 'Form1'
   ClientHeight = 240
@@ -16,7 +16,7 @@ object Form1: TForm1
     Text = 'Edit1'
   end
   object Edit2: TEdit
-    Left = 176
+    Left = 192
     Height = 23
     Top = 40
     Width = 80
@@ -33,9 +33,9 @@ object Form1: TForm1
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 128
+    Left = 160
     Height = 25
-    Top = 56
+    Top = 13
     Width = 32
     Caption = 'x'
     TabOrder = 3
@@ -48,5 +48,23 @@ object Form1: TForm1
     Width = 80
     TabOrder = 4
     Text = 'Edit3'
+  end
+  object Button3: TButton
+    Left = 128
+    Height = 25
+    Top = 48
+    Width = 32
+    Caption = 'DIV'
+    TabOrder = 5
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 160
+    Height = 25
+    Top = 48
+    Width = 32
+    Caption = '-'
+    TabOrder = 6
+    OnClick = Button4Click
   end
 end
